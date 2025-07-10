@@ -1,0 +1,26 @@
+# FastAPI y dependencias principales
+fastapi[standard]
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Base de datos
+sqlalchemy==2.0.23
+alembic==1.13.0
+
+# Autenticación y seguridad
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.6
+
+# HTTP client
+httpx==0.25.2
+
+# Validación de email
+email-validator==2.1.0
+
+# Logging
+python-json-logger==2.0.7
+
+# Utilidades
+python-dotenv==1.0.0 

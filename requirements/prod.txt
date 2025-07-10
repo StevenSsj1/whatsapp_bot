@@ -1,0 +1,13 @@
+-r base.txt
+
+# Servidor de producción
+gunicorn==21.2.0
+
+# Monitoreo
+prometheus-client==0.19.0
+
+# Cache (opcional)
+redis==5.0.1
+
+# Base de datos de producción (PostgreSQL)
+psycopg2-binary==2.9.9 
